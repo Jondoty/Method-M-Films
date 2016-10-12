@@ -6,10 +6,10 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
-<<<<<<< HEAD
 #nav1 {
   padding: 0;
 }
+
 #nav1 li {
     list-style-type: none;
     float: left;
@@ -17,6 +17,7 @@ body {
     padding: 0;
     width: 25%;
 }
+
 #nav1 a:link, a:visited {
   display: block;
   color: #ebe3ce;
@@ -27,14 +28,14 @@ body {
   padding: 4px;
   font-family: Helvetica, Arial, sans-serif;
 }
+
 #nav1 a:hover, a:active{
   color: #ebe3ce;
   background-color: #000000;
-=======
+}
+
 #subheads {
   font-family: 'Open Sans Condensed', sans-serif;
->>>>>>> origin/master
-}
 
 #footer {
   font-size: 0.8em;
