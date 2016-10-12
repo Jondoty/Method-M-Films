@@ -15,18 +15,19 @@ body {
     float: left;
     margin: 0;
     padding: 0;
-    width: 25%;
+    width: 100%;
+    font-size:25px;
 }
 
 #nav1 a:link, a:visited {
   display: block;
-  color: #ebe3ce;
-  background-color: #8B0000;
+  color: #ffffff;
+  background-color: #000000;
   font-weight: bold;
   text-align: center;
   text-decoration: none;
   padding: 4px;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 #nav1 a:hover, a:active{
@@ -36,6 +37,7 @@ body {
 
 #subheads {
   font-family: 'Open Sans Condensed', sans-serif;
+}
 
 #footer {
   font-size: 0.8em;
