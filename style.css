@@ -77,9 +77,11 @@ body {
   color: #ffffff;
   background-color: #000000;
   list-style-type: none;
-  padding-right: 10px;
+  text-decoration: none;
 }
+
 #navfilm a:link, a:visited{
   color: #ffffff;
   background-color: #000000;
+  text-decoration: none;
 }
