@@ -73,9 +73,14 @@ body {
 
 }
 
-h1{
-  font-size: 3rem;
-  margin-bottom: 1rem;
-  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-  text-align: center;
+#navfilm {
+  color: #ffffff;
+  background-color: #000000;
+  list-style-type: none;
+  padding-right: 10px;
+}
+#navfilm a:link, a:visited{
+  color: #ffffff;
+  background-color: #000000;
+>>>>>>> origin/master
 }
