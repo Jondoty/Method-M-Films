@@ -156,6 +156,16 @@ h2 {
    width: 100%;
    padding-top: 1rem;
 }
+h3 {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 4rem;
+  text-align: center;
+   position: inherit;
+   top: 450px;
+   left: 0;
+   width: 100%;
+   padding-top: 1rem;
+}
 
 #movie_menu li {
   list-style-type: none;
