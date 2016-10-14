@@ -154,3 +154,16 @@ h2 {
   font-family: 'Open Sans Condensed', sans-serif;
 >>>>>>> origin/master
 }
+
+.image {
+  position: relative;
+  width: 100%;
+}
+
+h2.movietitle
+  {
+    position: absolute;
+    top: 450px;
+    left: 10px;
+    width: 100%;
+  }
