@@ -88,6 +88,7 @@ body {
 #navposters {
   list-style-type: none;
   text-decoration: none;
+  columns: 2;
 }
 
 h1 {
