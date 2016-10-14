@@ -134,8 +134,9 @@ h2 {
    top: 450px;
    left: 0;
    width: 100%;
-=======
-#movie_menu{
+}
+
+#movie_menu li{
   list-style-type: none;
   float: left;
   margin: 0;
