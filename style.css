@@ -48,4 +48,27 @@ border: 0;
   border-top: 1px;
 }
 
+<<<<<<< Updated upstream
 #MISC
+=======
+#bodycontainer {
+  background-color: #ffffff;
+  width: 95%;
+  float: center;
+}
+
+#container {
+
+}
+
+#navfilm {
+  color: #ffffff;
+  background-color: #000000;
+  list-style-type: none;
+  padding-right: 10px;
+}
+#navfilm a:link, a:visited{
+  color: #ffffff;
+  background-color: #000000;
+}
+>>>>>>> Stashed changes
