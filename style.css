@@ -72,3 +72,10 @@ body {
 #container {
 
 }
+
+h1{
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  text-align: center;
+}
