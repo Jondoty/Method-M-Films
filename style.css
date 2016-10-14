@@ -130,27 +130,29 @@ h2{
 }
 
 h2 {
-   position: absolute;
+   position: inherit;
    top: 450px;
    left: 0;
    width: 100%;
 }
 
-#movie_menu li{
+#movie_menu li {
   list-style-type: none;
+  display: block;
   float: left;
   margin: 0;
   padding: 0;
-  width: 100%;
-  font-size:3rem;
+  width: 50%;
+  font-size: 3rem;
+
 }
-#movie_menu a:link, a:visited {
+#movie_menu li a:link, a:visited {
   display: block;
   color: #ffffff;
   background-color: #000000;
   text-decoration: none;
-  padding: 20px;
-  padding-left: 50px;
+  text-align: center;
+  padding: 50px;
+  padding-left: 0px;
   font-family: 'Open Sans Condensed', sans-serif;
->>>>>>> origin/master
 }
