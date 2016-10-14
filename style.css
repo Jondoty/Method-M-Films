@@ -100,6 +100,13 @@ h1 {
   text-align: center;
 }
 
+h2{
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+}
+
 .videoWrapper {
   position: relative;
   padding-bottom: 56.25%; /*16:9 ratio*/
@@ -114,4 +121,22 @@ h1 {
   right: 0;
   width: 100%;
   height: 100%;
+}
+
+#movie_menu{
+  list-style-type: none;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-size:3rem;
+}
+#movie_menu a:link, a:visited {
+  display: block;
+  color: #ffffff;
+  background-color: #000000;
+  text-decoration: none;
+  padding: 20px;
+  padding-left: 50px;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
