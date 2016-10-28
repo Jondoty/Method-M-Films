@@ -3,6 +3,17 @@ body {
   background-color: #f0f0f0;
 }
 
+.navigation{
+  display: flex;
+  flex-flow: column;
+}
+@media (min-width: 800px){
+  .navigation {
+    flex-flow: row;
+    justify-content: flex-end;
+  }
+}
+
 #heads {
   font-family: 'Raleway', sans-serif;
 }
@@ -18,7 +29,7 @@ body {
     padding: 0;
     width: 100%;
     height: 100%;
-    font-size:3rem;
+    font-size:2rem;
 }
 
 #nav1 a:link, a:visited {
@@ -26,7 +37,7 @@ body {
   color: #ffffff;
   background-color: #000000;
   text-decoration: none;
-  padding: 20px;
+  padding: 10px;
   padding-left: 50px;
   font-family: 'Open Sans Condensed', sans-serif;
 }
