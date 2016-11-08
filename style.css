@@ -203,3 +203,7 @@ h3 {
 .toplink {
   text-align:center;
 }
+
+.paragraph {
+  display: flex;
+}
