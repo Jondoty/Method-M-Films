@@ -33,17 +33,75 @@
 <p><a href="Concerned_Student_1950.html"><img src="images/posters/wake-of-ire-titled.png" alt="Main photo" width="100%" border="0"/></a></p>
 
 <!--Jon's section -->
+
+<style>
+
+#carousel {
+    width: 100%;
+    margin-bottom: -25px;
+    white-space:nowrap;
+    overflow-x: hidden;
+    overflow-x: scroll;
+}
+
+#carousel .slide {
+    display: inline-block;
+}
+
+/* Max width page */
+@media (max-width: 950px) {
+
+  #carousel img {
+    height: 356px;
+    width: 240px;
+  }
+    h1 {font-size: 4em;}
+}
+
+/* Mobile width page */
+@media (min-width: 550px) {
+
+  #carousel img {
+
+    height: 444px;
+    width: 300px;
+  }
+  h1 {font-size: 3em;}
+}
+
+
+
+</style>
+
+
 <h1>Current Films</h1>
 <div align="center">
 
-<p>
-  <a href="Concerned_Student_1950.html">
-<img src="images/posters/dark-knight.jpg" width="49%" alt="The Dark Knight" />
-  </a>
-  <a href="Concerned_Student_1950.html">
-<img src="images/posters/silence-of-the-lambs.jpg" width="49%" alt="Silence of the Lambs" />
-  </a>
-</p>
+<div id="carousel">
+    <div class="slide">
+        <img src="images/posters/dark-knight.jpg" />
+    </div>
+    <div class="slide">
+        <img src="images/posters/silence-of-the-lambs.jpg" />
+    </div>
+    <div class="slide">
+        <img src="images/posters/fight-club.jpg" />
+    </div>
+    <div class="slide">
+        <img src="images/posters/jaws.jpg" />
+    </div>
+    <div class="slide">
+        <img src="images/posters/force-awakens.jpeg" />
+    </div>
+    <div class="slide">
+        <img src="images/posters/titanic.jpg" />
+    </div>
+</div>
+
+
+
+
+
 </div> <!--Closing center div -->
 
 </div> <!--Closing body container-->
