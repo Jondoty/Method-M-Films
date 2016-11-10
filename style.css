@@ -25,6 +25,9 @@ body {
   flex-flow: row;
 }
 
+#about {
+  text-align: center;
+}
 
 
 #heads {
