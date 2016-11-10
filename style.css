@@ -12,12 +12,19 @@ body {
     flex-flow: row;
     justify-content: flex-end;
   }
+
+  .bio, .bio2 {
+    flex-flow:column;
+  }
+
 }
+
 .bio, .bio2 {
   display:flex;
   flex-flow: row;
 
 }
+
 #heads {
   font-family: 'Raleway', sans-serif;
 }
