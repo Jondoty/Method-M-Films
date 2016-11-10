@@ -22,7 +22,6 @@ body {
 .bio, .bio2 {
   display:flex;
   flex-flow: row;
-
 }
 
 #heads {
