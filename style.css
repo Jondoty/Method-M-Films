@@ -20,6 +20,29 @@ nav ul li{
   display: block;
 }
 
+table {
+    table-layout: fixed;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+th {
+    background-color: black;
+    color: white;
+}
+
 @media (min-width: 800px){
   nav ul{
     display: flex;
@@ -314,6 +337,7 @@ h3 {
   background-color: #717171;
 }
 
+
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
@@ -332,25 +356,12 @@ h3 {
   to {opacity: 1}
 }
 
-table {
-    table-layout: fixed;
+.table {
+  overflow-y: hidden;
+  overflow-x: auto;
 }
 
-th, td {
-    padding: 15px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
-}
-
-tr:hover {
-  background-color: #f5f5f5;
-}
-
-tr:nth-child(even) {
-  background-color: #f2f2f2;
-}
-
-th {
-    background-color: black;
-    color: white;
+.table td:before {
+  content: attr(datalabel);
+  float: left;
 }
