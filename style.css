@@ -201,11 +201,11 @@ h3 {
   float: left;
   margin: 0;
   padding: 0;
-  width: 50%;
+  width: 25%;
   font-size: 3rem;
 
 }
-#movie_menu li a:link, a:visited {
+#movie_menu li a:link {
   display: block;
   color: #ffffff;
   background-color: #000000;
