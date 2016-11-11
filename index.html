@@ -2,8 +2,6 @@
    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 
-<!-- 10/13 Copy for new Favicon and title text -->
-
 <head>
     <title>Method M Films</title>
     <meta http-equiv="content-type"
@@ -15,7 +13,6 @@
       type="image/png"
       href="images/favicon.png"/>
 </head>
-<!-- End 10/13 copy -->
 
 <body>
   <div id="container">
@@ -30,20 +27,143 @@
 </ul>
 <div id="bodycontainer">
 
-<p><a href="Concerned_Student_1950.html"><img src="images/posters/wake-of-ire-titled.png" alt="Main photo" width="100%" border="0"/></a></p>
+
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 4</div>
+      <img src="images/dummy_still1.jpg" style="width:100%">
+      <div class="text">Silence of the Lambs</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 4</div>
+      <img src="images/dummy_still2.jpg" style="width:100%">
+      <div class="text">The Dark Knight</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 4</div>
+      <img src="images/dummy_still3.jpg" style="width:100%">
+      <div class="text">Fight Club</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 4</div>
+      <img src="images/dummy_still4.jpg" style="width:100%">
+      <div class="text">Jaws</div>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+  </div>
+
+  <script>
+  var slideIndex = 1;
+  showSlides(slideIndex);
+
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+  }
+  </script>
 
 <!--Jon's section -->
+
+<style>
+
+#carousel {
+    width: 100%;
+    margin-bottom: -25px;
+    white-space:nowrap;
+    overflow-x: hidden;
+    overflow-x: scroll;
+}
+
+#carousel .slide {
+    display: inline-block;
+}
+
+/* Max width page */
+@media (max-width: 950px) {
+
+  #carousel img {
+    height: 356px;
+    width: 240px;
+  }
+    h1 {font-size: 4em;}
+}
+
+/* Mobile width page */
+@media (min-width: 550px) {
+
+  #carousel img {
+
+    height: 444px;
+    width: 300px;
+  }
+  h1 {font-size: 3em;}
+}
+
+
+
+</style>
+
+
 <h1>Current Films</h1>
 <div align="center">
 
-<p>
-  <a href="Concerned_Student_1950.html">
-<img src="images/posters/dark-knight.jpg" width="49%" alt="The Dark Knight" />
-  </a>
-  <a href="Concerned_Student_1950.html">
-<img src="images/posters/silence-of-the-lambs.jpg" width="49%" alt="Silence of the Lambs" />
-  </a>
-</p>
+<div id="carousel">
+    <div class="slide">
+        <img src="images/posters/dark-knight.jpg" />
+    </div>
+    <div class="slide">
+        <img src="images/posters/silence-of-the-lambs.jpg" />
+    </div>
+    <div class="slide">
+        <img src="images/posters/fight-club.jpg" />
+    </div>
+    <div class="slide">
+        <img src="images/posters/jaws.jpg" />
+    </div>
+    <div class="slide">
+        <img src="images/posters/force-awakens.jpeg" />
+    </div>
+    <div class="slide">
+        <img src="images/posters/titanic.jpg" />
+    </div>
+</div>
+
+
+
+
+
 </div> <!--Closing center div -->
 
 </div> <!--Closing body container-->
