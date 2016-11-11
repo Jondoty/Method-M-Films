@@ -2,15 +2,36 @@ body {
   font-family: 'Lato', sans-serif;
   background-color: #f0f0f0;
 }
-
+.site {
+  order: 1;
+  font-size: 1.75em;
+  width: 2em;
+}
 .navigation{
   display: flex;
   flex-flow: column;
 }
+
+nav ul{
+  display: none;
+}
+
+nav ul li{
+  display: block;
+}
+
 @media (min-width: 800px){
+  nav ul{
+    display: flex;
+  }
+
   .navigation {
     flex-flow: row;
     justify-content: flex-end;
+  }
+
+  .site {
+    display: none;
   }
 
   .bio, .bio2, .all {
