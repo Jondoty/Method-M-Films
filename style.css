@@ -58,7 +58,9 @@ th {
 
 
 .site{
-  background-color:black;
+  display:block;
+  width:100%;
+  background:black;
   color:white;
 }
 
