@@ -61,6 +61,10 @@ th {
   flex-flow: column;
 }
 
+nav{
+  background-color:black;
+}
+
 @media (min-width: 800px){
   nav ul{
     display: flex;
