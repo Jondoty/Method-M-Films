@@ -66,10 +66,6 @@ th {
   padding-top: 16px;
 }
 
-#nav1{
-  display:none;
-}
-
 @media (max-width: 800px) {
   .logo-small {
     display: none;
