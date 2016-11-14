@@ -56,6 +56,11 @@ th {
     color: white;
 }
 
+.bio, .bio2, .all {
+  display: flex;
+  flex-flow: column;
+}
+
 @media (min-width: 800px){
   nav ul{
     display: flex;
@@ -71,8 +76,7 @@ th {
   }
 
   .bio, .bio2, .all {
-    flex-flow:column;
-    max-width: 600px;
+    flex-flow:row;
   }
 
 }
