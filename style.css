@@ -61,10 +61,6 @@ th {
   flex-flow: column;
 }
 
-<<<<<<< HEAD
-nav{
-  background-color:black;
-=======
 .logo-large {
     margin-left: -1.5em;
 }
@@ -73,8 +69,6 @@ nav{
   .logo-small {
     display: none;
   }
->>>>>>> origin/master
-}
 
 @media (min-width: 800px){
   nav ul{
