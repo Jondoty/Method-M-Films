@@ -74,6 +74,7 @@ th {
 
   .logo-large {
   display: none;
+  margin-left: -1.5em;
 }
 
   .navigation {
