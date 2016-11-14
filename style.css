@@ -60,6 +60,11 @@ th {
   margin-left: -1.5em;
 }
 
+.site{
+  background-color:black;
+  color:white;
+}
+
 @media (max-width: 800px) {
   .logo-small {
     display: none;
