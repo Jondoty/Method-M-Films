@@ -22,6 +22,7 @@ nav ul li{
 
 table {
     table-layout: fixed;
+    max-width: none;
 }
 
 th, td {
