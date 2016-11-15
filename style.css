@@ -35,8 +35,11 @@ tr:hover {
   background-color: #f5f5f5;
 }
 
-.cs1950 a:visited{
+.cs1950 a:visited {
   color: black;
+}
+.cs1950 a:hover{
+  color: #fece2f;
 }
 
 a:link, a:visited {
