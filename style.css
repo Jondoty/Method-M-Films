@@ -126,7 +126,7 @@ th, td {
   }
 
   .bio, .bio2, .all {
-    flex-flow:column;
+    flex-flow: row;
     max-width: 600px;
     max-width: none;
   }
