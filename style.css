@@ -78,9 +78,14 @@ th {
   display: none;
 }
 
+
 @media (max-width: 800px) {
   .logo-small {
     display: none;
+  }
+  .bio, .bio2, .all {
+    display: flex;
+    flex-flow: row;
   }
   .table{
     display: flex;
@@ -121,11 +126,12 @@ th, td {
   .bio, .bio2, .all {
     flex-flow:column;
     max-width: 600px;
+    max-width: none;
   }
 
 }
 
-.bio, .bio2 {
+.bio, .bio2, .all{
   display:flex;
   flex-flow: row;
 }
