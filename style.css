@@ -130,16 +130,15 @@ th, td {
   }
 
   .bio, .bio2, .all {
-    flex-flow: row;
+    flex-flow: wrap;
     max-width: 600px;
     max-width: none;
   }
-
 }
 
 .bio, .bio2, .all{
   display:flex;
-  flex-flow: row;
+  flex-flow: wrap;
 }
 
 #about {
