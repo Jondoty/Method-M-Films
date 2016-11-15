@@ -325,6 +325,7 @@ ul#jump li:first-child:before {
 .toplink, .toplink a:link, .toplink a:visited {
   text-align:center;
   color: black;
+  background-color:#f0f0f0;
 }
 
 .paragraph {
