@@ -276,29 +276,55 @@ h3 {
    padding-top: 1rem;
 }
 
-#movie_menu li {
-  list-style-type: none;
+/* mini menu on concerned student 1950 */
+ul#jump {
+	font-family:'Open Sans Condensed', sans-serif;
   display: block;
-  float: left;
-  margin: 0;
-  padding: 0;
-  width: 25%;
-  font-size: 3rem;
+  background-color: black;
+	text-align: center;
+	font-size: 3rem;
+	padding: 7px 0;
+	color: #ffffff;
+	margin: 0;
+	}
+ul#jump li {
+	list-style: none;
+	display: inline;
+	padding: 0 3px;
+	margin: 0;
+	}
+ul#jump a:link, ul#jump a:visited {
+	text-decoration: none;
+	color: white;
+	}
+ul#jump a:hover, ul#jump a:active {
+	text-decoration: underline;
+	color: #fece2f;
+	}
 
-}
-#movie_menu li a:link {
-  display: block;
-  color: #ffffff;
-  background-color: #000000;
-  text-decoration: none;
-  text-align: center;
-  padding: 50px;
-  padding-left: 0px;
-  font-family: 'Open Sans Condensed', sans-serif;
-}
+	}
+ul#jump:hover, ul#jump a:link, ul#jump:focus,
+ul#jump:hover a:visited, ul#jump:focus a:visited {
+	text-decoration: none;
+	color: black;
+	}
+ul#jump:hover a:hover, ul#jump:focus a:hover,
+ul#jump:hover a:active, ul#jump:focus a:active {
+	text-decoration: underline;
+	background: #000000;
+	color: #ebe3ce;
+	}
+ul#jump li:before {
+	content: " | ";
+	}
+ul#jump li:first-child:before {
+	content: " ";
+	}
 
-.toplink {
+
+.toplink, .toplink a:link, .toplink a:visited {
   text-align:center;
+  color: black;
 }
 
 .paragraph {
