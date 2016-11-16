@@ -372,7 +372,7 @@ ul#jump a:hover, ul#jump a:active {
 ul#jump:hover, ul#jump a:link, ul#jump:focus,
 ul#jump:hover a:visited, ul#jump:focus a:visited {
 	text-decoration: none;
-	color: black;
+	color: white;
 	}
 ul#jump:hover a:hover, ul#jump:focus a:hover,
 ul#jump:hover a:active, ul#jump:focus a:active {
