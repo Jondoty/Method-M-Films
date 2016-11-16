@@ -138,6 +138,24 @@ th, td {
   }
 }
 
+#name {
+  text-align: center;
+  max-width: 800px;
+}
+#words {
+  padding: 5px;
+  max-width: 800px;
+}
+
+#connect  {
+  color: black;
+}
+
+#connect a:hover {
+  color: #fece2f;
+}
+
+
 .bio, .bio2, .all{
   display:flex;
   flex-flow: wrap;
