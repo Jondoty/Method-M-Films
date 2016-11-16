@@ -154,7 +154,18 @@ th, td {
 #connect a:hover {
   color: #fece2f;
 }
+#doe {
+display: block;
+text-align: inherit;
+}
 
+.doepic {
+  display: center;
+}
+
+#johndoe {
+  text-align: center;
+}
 
 .bio, .bio2, .all{
   display:flex;
