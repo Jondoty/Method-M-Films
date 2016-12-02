@@ -81,6 +81,10 @@ th {
   padding-bottom: 20px;
 }
 
+#search{
+  text-align: center;
+}
+
 
 @media (max-width: 800px) {
   .logo-small {
