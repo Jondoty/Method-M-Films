@@ -151,6 +151,17 @@ th, td {
   max-width: 800px;
 }
 
+#words a:link, a:visited{
+  color: black;
+}
+
+a:link, a:visited{
+  color: black;
+}
+#bodycontainer a:hover {
+  color:#fece2f;
+}
+
 #connect  {
   color: black;
 }
