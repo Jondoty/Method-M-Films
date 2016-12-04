@@ -93,7 +93,8 @@ th {
 
   .bio, .bio2, .all {
     display: flex;
-    flex-flow: row;
+    flex-flow: column;
+    flex-wrap: wrap;
   }
 
   .table{
@@ -136,9 +137,10 @@ th, td {
   }
 
   .bio, .bio2, .all {
-    flex-flow: wrap;
-    max-width: 600px;
-    max-width: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    max-width: 33%;
   }
 }
 
@@ -184,7 +186,9 @@ text-align: inherit;
 
 .bio, .bio2, .all{
   display:flex;
-  flex-flow: wrap;
+  flex-flow: column;
+  flex-wrap: wrap;
+  max-width: 33%;
 }
 
 #about {
