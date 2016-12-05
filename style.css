@@ -81,6 +81,10 @@ th {
   padding-bottom: 20px;
 }
 
+#search{
+  text-align: center;
+}
+
 
 @media (max-width: 800px) {
   .logo-small {
@@ -89,7 +93,8 @@ th {
 
   .bio, .bio2, .all {
     display: flex;
-    flex-flow: row;
+    flex-flow: column;
+    flex-wrap: wrap;
   }
 
   .table{
@@ -132,9 +137,10 @@ th, td {
   }
 
   .bio, .bio2, .all {
-    flex-flow: wrap;
-    max-width: 600px;
-    max-width: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    max-width: 33%;
   }
 }
 
@@ -145,6 +151,17 @@ th, td {
 #words {
   padding: 5px;
   max-width: 800px;
+}
+
+#words a:link, a:visited{
+  color: black;
+}
+
+a:link, a:visited{
+  color: black;
+}
+#bodycontainer a:hover {
+  color:#fece2f;
 }
 
 #connect  {
@@ -169,7 +186,9 @@ text-align: inherit;
 
 .bio, .bio2, .all{
   display:flex;
-  flex-flow: wrap;
+  flex-flow: column;
+  flex-wrap: wrap;
+  max-width: 33%;
 }
 
 #about {
@@ -372,7 +391,7 @@ ul#jump a:hover, ul#jump a:active {
 ul#jump:hover, ul#jump a:link, ul#jump:focus,
 ul#jump:hover a:visited, ul#jump:focus a:visited {
 	text-decoration: none;
-	color: black;
+	color: white;
 	}
 ul#jump:hover a:hover, ul#jump:focus a:hover,
 ul#jump:hover a:active, ul#jump:focus a:active {
@@ -488,4 +507,33 @@ ul#jump li:first-child:before {
   visibility: hidden;
   color: white;
   font-size: 11px;
+}
+
+#carousel {
+    width: 100%;
+    margin-bottom: -25px;
+    white-space:nowrap;
+    overflow-x: hidden;
+    overflow-x: scroll;
+}
+
+#carousel .slide {
+    display: inline-block;
+}
+
+@media (max-width: 950px) {
+
+  #carousel img {
+    height: 356px;
+    width: 240px;
+  }
+}
+
+@media (min-width: 550px) {
+
+  #carousel img {
+
+    height: 444px;
+    width: 300px;
+  }
 }
