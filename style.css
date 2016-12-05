@@ -377,10 +377,10 @@ ul#jump {
 ul#jump li {
 	list-style: none;
 	display: inline;
-	padding: 0 3px;
+	padding: 0 30px;
 	margin: 0;
 	}
-ul#jump a:link, ul#jump a:visited {
+ul#jump a:link, ul#jump {
 	text-decoration: none;
 	color: white;
 	}
@@ -399,7 +399,7 @@ ul#jump:hover a:active, ul#jump:focus a:active {
 	background: #000000;
 	color: #ebe3ce;
 	}
-ul#jump li:before {
+ul#jump  {
 	content: " | ";
 	}
 ul#jump li:first-child:before {
