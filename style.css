@@ -2,6 +2,7 @@ body {
   font-family: 'Lato', sans-serif;
   background-color: #f0f0f0;
 }
+
 .site {
   order: 1;
   font-size: 1.75em;
@@ -10,7 +11,6 @@ body {
 .navigation{
   display: flex;
   flex-flow: column;
-
 }
 
 nav ul{
