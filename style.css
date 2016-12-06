@@ -25,6 +25,7 @@ nav ul li{
     table-layout: fixed;
     max-width: none;
     flex-flow: wrap;
+    width: 100%;
 }
 
 .TableLinks a:link, .TableLinks a:visited, .TableLinks a:active {
@@ -42,7 +43,7 @@ th, td {
     padding: 15px;
     text-align: left;
     border-bottom: 1px solid #ddd;
-    width: 100%;
+
 }
 
 tr:hover {
@@ -110,11 +111,16 @@ th {
   .table{
     display: flex;
     flex-flow: wrap;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
 th, td {
-  font-size: 1rem;
+  font-size: 0.5rem;
   width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 }
 
