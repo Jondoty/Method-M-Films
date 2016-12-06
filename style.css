@@ -27,8 +27,15 @@ nav ul li{
     flex-flow: wrap;
 }
 
-.TableLinks a:link, .TableLinks a:hover, .TableLinks a:visited, .TableLinks a:active {
-text-decoration: none;
+.TableLinks a:link, .TableLinks a:visited, .TableLinks a:active {
+  text-decoration: none;
+  background-color: transparent;
+  color: black;
+}
+
+.TableLinks a:hover {
+  text-decoration: none;
+  color: #fece2f;
 }
 
 th, td {
@@ -39,7 +46,7 @@ th, td {
 }
 
 tr:hover {
-  background-color: #f5f5f5;
+  background-color: #fece2f;
 }
 
 .cs1950 a:visited {
@@ -177,6 +184,7 @@ a:link, a:visited{
 #connect a:hover {
   color: #fece2f;
 }
+
 #doe {
 display: block;
 text-align: inherit;
@@ -199,6 +207,7 @@ text-align: inherit;
   padding-right: 4em;
 text-align: center;
 }
+
 .bio2 {
   display:flex;
   flex-flow: column;
