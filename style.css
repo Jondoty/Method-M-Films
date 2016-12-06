@@ -103,6 +103,7 @@ th {
 
 
 @media (max-width: 800px) {
+
   .logo-small {
     display: none;
   }
@@ -122,6 +123,15 @@ th, td {
   margin-left: 20%;
   margin-right: 20%;
 }
+}
+
+@media (min-width: 1100px){
+  #navposters img{
+    width: 510px;
+    display: flex;
+    flex: column;
+    padding: 2px;
+  }
 }
 
 @media (min-width: 800px){
@@ -354,6 +364,7 @@ text-align: center;
   list-style-type: none;
   text-decoration: none;
   column-count: 2;
+  column-gap: 15px;
 }
 
 h1 {
