@@ -167,6 +167,9 @@ a:link, a:visited{
 #bodycontainer a:hover {
   color:#fece2f;
 }
+#bodycontainer a:visited {
+  color:black;
+}
 
 #connect  {
   color: black;
