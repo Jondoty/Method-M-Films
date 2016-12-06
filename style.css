@@ -27,8 +27,8 @@ nav ul li{
     flex-flow: wrap;
 }
 
-.TableLinks a:link; a:hover; a:visited; a:active {
-  text-decoration: none;
+.TableLinks a:link, .TableLinks a:hover, .TableLinks a:visited, .TableLinks a:active {
+text-decoration: none;
 }
 
 th, td {
