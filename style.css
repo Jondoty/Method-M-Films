@@ -95,11 +95,6 @@ th {
     display: none;
   }
 
-  .bio, .bio2, .all {
-    display: flex;
-    flex-flow: column;
-    flex-wrap: wrap;
-  }
 
   .table{
     display: flex;
@@ -140,11 +135,11 @@ th, td {
     display: none;
   }
 
-  .bio, .bio2, .all {
+  .all {
     display: flex;
     flex-wrap: wrap;
     flex-flow: column;
-    max-width: 33%;
+    max-width: 100%;
   }
 }
 
@@ -191,11 +186,14 @@ text-align: inherit;
   text-align: center;
 }
 
-.bio, .bio2, .all{
+.bio, .bio2 {
   display:flex;
   flex-flow: column;
   flex-wrap: wrap;
   max-width: 33%;
+  padding-left: 4em;
+  padding-right: 4em;
+
 }
 
 #about {
@@ -269,7 +267,11 @@ text-align: inherit;
   width: 100%;
 }
 
-#container {
+.all {
+  display:flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  max-width: 100%;
 
 }
 
