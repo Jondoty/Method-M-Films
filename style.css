@@ -550,3 +550,10 @@ ul#jump li:first-child:before {
 h1.arrow {
     margin-top: -35px;
 }
+
+.text {
+    font-size: 3em;
+    font-family: inherit;
+    margin-bottom: -10px;
+    text-shadow: 2px 2px 5px #2a2a2a;
+}
