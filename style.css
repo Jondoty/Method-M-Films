@@ -186,7 +186,7 @@ text-align: inherit;
   text-align: center;
 }
 
-.bio, .bio2 {
+.bio {
   display:flex;
   flex-flow: column;
   flex-wrap: wrap;
@@ -194,6 +194,15 @@ text-align: inherit;
   padding-left: 4em;
   padding-right: 4em;
 text-align: center;
+}
+.bio2 {
+  display:flex;
+  flex-flow: column;
+  flex-wrap: wrap;
+  max-width: 40%;
+  padding-left: 1em;
+  padding-right: 1em;
+  text-align: center;
 }
 
 #about {
@@ -272,7 +281,7 @@ text-align: center;
   flex-flow: row;
   flex-wrap: wrap;
   max-width: 100%;
-
+  text-align: center;
 }
 
 /* Style The Dropdown Button */
