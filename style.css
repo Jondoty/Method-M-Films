@@ -85,6 +85,10 @@ th {
   text-align: center;
 }
 
+#searchlink{
+  text-align: center;
+}
+
 
 @media (max-width: 800px) {
   .logo-small {
