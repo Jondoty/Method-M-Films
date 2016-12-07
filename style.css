@@ -103,14 +103,22 @@ th {
   padding-bottom: 20px;
 }
 
-#searchlink{
+#searchlink {
   text-align: left;
   padding: 140px;
-  color: black; 
+}
+
+#searchlink a:visited {
+  color: black;
+}
+
+#searchlink a:hover{
+ color: #fece2f;
 }
 
 .results {
   text-align: left;
+  color: black;
 }
 
 #search{
