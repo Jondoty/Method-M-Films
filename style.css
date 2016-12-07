@@ -3,6 +3,13 @@ body {
   background-color: #f0f0f0;
 }
 
+p {
+  text-align: center;
+  max-width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .site {
   order: 1;
   font-size: 1.75em;
@@ -303,8 +310,8 @@ text-align: center;
 #bodycontainer {
   background-color: #f0f0f0;
   width: 100%;
+  font-size: 1.5em;
 }
-
 
 .all {
   display:flex;
