@@ -106,7 +106,11 @@ th {
 #searchlink{
   text-align: left;
   padding: 140px;
-  text-decoration-color: black;
+  color: black; 
+}
+
+.results {
+  text-align: left;
 }
 
 #search{
