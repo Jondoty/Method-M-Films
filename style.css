@@ -1,7 +1,3 @@
-.icon {
-  background-color: pink;
-  height: 150%;
-}
 body {
   font-family: 'Lato', sans-serif;
   background-color: #f0f0f0;
@@ -22,6 +18,9 @@ p {
 .navigation{
   display: flex;
   flex-flow: column;
+  background-color: black;
+  height: 110%;
+  }
 }
 
 nav ul{
