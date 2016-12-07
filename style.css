@@ -103,12 +103,14 @@ th {
   padding-bottom: 20px;
 }
 
-#search{
-  text-align: center;
-}
-
 #searchlink{
   text-align: left;
+  padding: 140px;
+  text-decoration-color: black;
+}
+
+#search{
+  text-align: center;
 }
 
 
