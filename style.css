@@ -1,3 +1,7 @@
+.icon {
+  background-color: pink;
+  height: 150%;
+}
 body {
   font-family: 'Lato', sans-serif;
   background-color: #f0f0f0;
