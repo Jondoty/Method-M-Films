@@ -504,13 +504,12 @@ ul#jump li:first-child:before {
 /* Caption text */
 .text {
   color: #f2f2f2;
-  font-size: 15px;
+  text-shadow: 2px 2px 5px #2a2a2a;
+  font-size: 1.5em;
+  font-family: inherit;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
-  width: 100%;
-  text-align: center;
-  width: 98%;
   text-align: left;
 }
 
@@ -596,13 +595,6 @@ ul#jump li:first-child:before {
 
 h1.arrow {
     margin-top: -35px;
-}
-
-.text {
-    font-size: 3em;
-    font-family: inherit;
-    margin-bottom: -10px;
-    text-shadow: 2px 2px 5px #2a2a2a;
 }
 
 @-moz-document url-prefix() {
