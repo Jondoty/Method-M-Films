@@ -341,7 +341,9 @@ text-align: inherit;
   flex-wrap: wrap;
   max-width: 100%;
 }
-
+.all a:hover{
+  color:#fece2f
+}
 /* Style The Dropdown Button */
 .dropbtn {
     background-color: #C0C0C0;
