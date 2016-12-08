@@ -56,10 +56,6 @@ th, td {
 
 }
 
-tr:hover {
-  background-color: #fece2f;
-}
-
 .cs1950 a:visited {
   color: black;
 }
@@ -86,7 +82,7 @@ tr:nth-child(even) {
 
 th {
     background-color: black;
-    color: white;
+    color: black;
 }
 
 .site{
