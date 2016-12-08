@@ -151,21 +151,20 @@ th, td {
 }
 }
 
-@media (min-width: 1080px){
-  #navposters img{
-    width: 510px;
-    display: flex;
-    flex: column;
-    padding: 2px;
-    position: relative;
-    margin: 0 auto;
-  }
-}
 
 @media (min-width: 800px){
   .table{
     display: flex;
     flex-flow: wrap;
+  }
+
+  #navposters img{
+    width: 80%;
+    display: flex;
+    flex: column;
+    padding: 2px;
+    position: relative;
+    margin: 0 auto;
   }
 
 th, td {
