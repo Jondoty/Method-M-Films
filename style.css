@@ -10,6 +10,10 @@ p {
   margin-right: auto;
 }
 
+#filmcopyright {
+  padding-top: 10px;
+}
+
 .site {
   order: 1;
   font-size: 1.75em;
@@ -54,10 +58,6 @@ th, td {
     text-align: left;
     border-bottom: 1px solid #ddd;
 
-}
-
-tr:hover {
-  background-color: #fece2f;
 }
 
 .cs1950 a:visited {
@@ -116,9 +116,15 @@ th {
  color: #fece2f;
 }
 
+#words a:hover{
+   color: #fece2f;
+  }
+}
 .results {
   text-align: left;
   color: black;
+  margin-right: 0;
+  margin-left:0;
 }
 
 #search{
@@ -127,6 +133,10 @@ th {
 
 
 @media (max-width: 800px) {
+
+  #filmcopyright {
+    padding-top: 20px;
+  }
 
   .logo-small {
     display: none;
@@ -142,28 +152,27 @@ th {
   }
 
 th, td {
-  font-size: 0.5rem;
+  font-size: 0.8rem;
   width: 60%;
   margin-left: 20%;
   margin-right: 20%;
 }
 }
 
-@media (min-width: 1080px){
-  #navposters img{
-    width: 510px;
-    display: flex;
-    flex: column;
-    padding: 2px;
-    position: relative;
-    margin: 0 auto;
-  }
-}
 
 @media (min-width: 800px){
   .table{
     display: flex;
     flex-flow: wrap;
+  }
+
+  #navposters img{
+    width: 80%;
+    display: flex;
+    flex: column;
+    padding: 2px;
+    position: relative;
+    margin: 0 auto;
   }
 
 th, td {
@@ -203,6 +212,7 @@ th, td {
 #words {
   padding: 5px;
   max-width: 800px;
+  text-align: left;
 }
 
 #words a:link, a:visited{
@@ -217,6 +227,10 @@ a:link, a:visited{
 }
 #filmmakers a:visited {
   color:black;
+}
+#filmmakers a:hover {
+   color: #fece2f;
+  }
 }
 
 #connect  {
@@ -244,11 +258,12 @@ text-align: inherit;
   display:flex;
   flex-flow: column;
   flex-wrap: wrap;
-  max-width: 33%;
+  max-width: 15%;
   padding-left: 4em;
   padding-right: 4em;
-text-align: center;
+  text-align: left;
 }
+
 
 .bio2 {
   display:flex;
@@ -257,13 +272,18 @@ text-align: center;
   max-width: 40%;
   padding-left: 1em;
   padding-right: 1em;
-  text-align: center;
+  text-align: left;
 }
 
 #about {
-  text-align: center;
+  text-align: left;
 }
-
+#about a:visited {
+  color:black;
+}
+#about a:hover {
+   color: #fece2f;
+}
 
 #heads {
   font-family: 'Raleway', sans-serif;
@@ -337,53 +357,9 @@ text-align: center;
   flex-flow: row;
   flex-wrap: wrap;
   max-width: 100%;
-  text-align: center;
 }
-
-/* Style The Dropdown Button */
-.dropbtn {
-    background-color: #C0C0C0;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-}
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-    position: relative;
-    display: inline-block;
-    padding-top: 5%;
-    padding-left: 45%;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #000000;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-    color: white;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {
-  background-color: #C0C0C0;
-}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-    display: block;
-    background-color: #000000;
+.all a:hover{
+  color:#fece2f
 }
 
 #navposters {
@@ -484,6 +460,12 @@ ul#jump li:first-child:before {
 	content: " ";
 	}
 
+#aboutlogo {
+  text-align: center;
+  display: flex;
+  max-width: 600px;
+  max-height: 200px;
+}
 
 .toplink, .toplink a:link, .toplink a:visited {
   text-align:center;
@@ -611,6 +593,14 @@ ul#jump li:first-child:before {
     height: 356px;
     width: 240px;
   }
+  #aboutlogo img {
+    text-align: left;
+    display: flex;
+    max-width: 100%;
+    max-height: auto;
+  }
+
+
 }
 
 @media (min-width: 550px) {
@@ -620,6 +610,7 @@ ul#jump li:first-child:before {
     height: 444px;
     width: 300px;
   }
+
 }
 
 h1.arrow {
