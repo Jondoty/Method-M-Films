@@ -10,6 +10,10 @@ p {
   margin-right: auto;
 }
 
+#filmcopyright {
+  padding-top: 10px;
+}
+
 .site {
   order: 1;
   font-size: 1.75em;
@@ -129,6 +133,10 @@ th {
 
 
 @media (max-width: 800px) {
+
+  #filmcopyright {
+    padding-top: 20px;
+  }
 
   .logo-small {
     display: none;
