@@ -247,7 +247,7 @@ text-align: inherit;
   display:flex;
   flex-flow: column;
   flex-wrap: wrap;
-  max-width: 33%;
+  max-width: 15%;
   padding-left: 4em;
   padding-right: 4em;
   text-align: left;
