@@ -79,11 +79,6 @@ a:active {
   background-color: #fece2f;
 }
 
-
-tr:nth-child(even) {
-  background-color: #f2f2f2;
-}
-
 th {
     background-color: black;
     color: white;
