@@ -79,6 +79,11 @@ a:active {
   background-color: #fece2f;
 }
 
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
 th {
     background-color: black;
     color: white;
@@ -143,7 +148,7 @@ th {
   }
 
 th, td {
-  font-size: 0.5rem;
+  font-size: 0.8rem;
   width: 60%;
   margin-left: 20%;
   margin-right: 20%;
