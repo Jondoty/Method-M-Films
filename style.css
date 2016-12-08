@@ -38,8 +38,10 @@ nav ul li{
 .table {
     table-layout: fixed;
     max-width: none;
+    display: flex;
     flex-flow: wrap;
     width: 100%;
+    flex: 1;
 }
 
 .TableLinks a:link, .TableLinks a:visited, .TableLinks a:active {
@@ -599,8 +601,6 @@ ul#jump li:first-child:before {
     max-width: 100%;
     max-height: auto;
   }
-
-
 }
 
 @media (min-width: 550px) {
