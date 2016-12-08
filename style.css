@@ -488,6 +488,12 @@ ul#jump li:first-child:before {
 	content: " ";
 	}
 
+#aboutlogo {
+  text-align: center;
+  display: flex;
+  max-width: 600px;
+  max-height: 200px;
+}
 
 .toplink, .toplink a:link, .toplink a:visited {
   text-align:center;
@@ -615,6 +621,14 @@ ul#jump li:first-child:before {
     height: 356px;
     width: 240px;
   }
+  #aboutlogo img {
+    text-align: left;
+    display: flex;
+    max-width: 100%;
+    max-height: auto;
+  }
+
+
 }
 
 @media (min-width: 550px) {
@@ -624,6 +638,7 @@ ul#jump li:first-child:before {
     height: 444px;
     width: 300px;
   }
+
 }
 
 h1.arrow {
