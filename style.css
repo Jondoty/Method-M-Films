@@ -116,6 +116,10 @@ th {
  color: #fece2f;
 }
 
+#words a:hover{
+   color: #fece2f;
+  }
+}
 .results {
   text-align: left;
   color: black;
@@ -221,6 +225,10 @@ a:link, a:visited{
 #filmmakers a:visited {
   color:black;
 }
+#filmmakers a:hover {
+   color: #fece2f;
+  }
+}
 
 #connect  {
   color: black;
@@ -267,7 +275,12 @@ text-align: inherit;
 #about {
   text-align: left;
 }
-
+#about a:visited {
+  color:black;
+}
+#about a:hover {
+   color: #fece2f;
+}
 
 #heads {
   font-family: 'Raleway', sans-serif;
