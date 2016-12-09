@@ -36,7 +36,7 @@ nav ul li{
 }
 
 .table {
-    table-layout: fixed;
+    table-layout: fixed !important;
     max-width: none;
     display: flex;
     flex-flow: wrap;
