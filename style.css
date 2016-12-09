@@ -66,12 +66,11 @@ th, td {
   color: black;
 }
 .cs1950 a:hover{
-  color: #fece2f !important;
+  color: #fece2f;
 }
 
 a:link, a:visited {
   color: black;
-  background-color: transparent !important;
 }
 
 a:hover {
@@ -340,6 +339,8 @@ text-align: inherit;
   color: #ffffff;
   background-color: #000000;
   font-size: 3rem;
+  text-align: left;
+  font-family: 'Open Sans Condensed', sans-serif;
   border-top: 1px;
   text-align: right;
 }
@@ -627,16 +628,15 @@ h1.arrow {
       height: 44px;
   }
 }
-}
 
-#directors {
+.directors {
     width: 100%;
     white-space:nowrap;
     overflow-x: hidden;
     overflow-x: scroll;
 }
 
-#directors .slide {
+.directors .slide {
     display: inline-block;
     width: 400px;
     align-items: center;
