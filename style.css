@@ -144,7 +144,6 @@ th {
     display: none;
   }
 
-
   .table{
     display: flex;
     flex-flow: wrap;
@@ -161,8 +160,26 @@ th, td {
 }
 }
 
+.text {
+  color: #000000;
+  font-size: 1em;
+}
+
 
 @media (min-width: 800px){
+
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    text-shadow: 2px 2px 5px #2a2a2a;
+    font-size: 1.5em;
+    font-family: inherit;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    text-align: left;
+  }
+
   .table{
     display: flex;
     flex-flow: wrap;
@@ -514,17 +531,7 @@ ul#jump li:first-child:before {
   border-radius: 3px 0 0 3px;
 }
 
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  text-shadow: 2px 2px 5px #2a2a2a;
-  font-size: 1.5em;
-  font-family: inherit;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  text-align: left;
-}
+
 
 /* The dots/bullets/indicators */
 .dot {
