@@ -55,6 +55,17 @@ nav ul li{
   color: #fece2f;
 }
 
+#ConcernedLinks a:link, #ConcernedLinks a:visited, #ConcernedLinks a:active {
+  text-decoration: none;
+  background-color: transparent;
+  color: black;
+}
+
+#ConcernedLinks a:hover {
+  text-decoration: none;
+  color: #fece2f !important;
+}
+
 th, td {
     padding: 15px;
     text-align: left;
@@ -63,22 +74,22 @@ th, td {
 }
 
 .cs1950 a:visited {
-  color: black;
+  color: #fece2f;
 }
 .cs1950 a:hover{
   color: #fece2f;
 }
 
-a:link, a:visited {
-  color: black;
-}
-
-a:hover {
+.cs1950 a:link, .cs1950a:visited {
   color: #fece2f;
 }
 
-a:active {
-  background-color: #fece2f;
+.cs1950 a:hover {
+  color: #fece2f;
+}
+
+.cs1950a:active {
+  background-color: transparent;
 }
 
 
@@ -486,31 +497,31 @@ ul#jump li {
 	padding: 0 30px;
 	margin: 0;
 	}
-ul#jump a:link, ul#jump {
-	text-decoration: none;
+ul#jump a:link {
+  text-decoration: none;
 	color: white;
-	}
-ul#jump a:hover, ul#jump a:active {
-	text-decoration: underline;
+}
+ ul#jump a:hover {
+	text-decoration: none;
 	color: #fece2f;
 	}
-ul#jump:hover, ul#jump a:link, ul#jump:focus,
-ul#jump:hover a:visited, ul#jump:focus a:visited {
-	text-decoration: none;
+
+ul#jump:hover{
+  text-decoration: none;
+	color: #fece2f;
+  }
+
+ul#jump a:visited{
+  text-decoration: none;
 	color: white;
 	}
 ul#jump:hover a:hover, ul#jump:focus a:hover,
 ul#jump:hover a:active, ul#jump:focus a:active {
-	text-decoration: underline;
-	background: #000000;
-	color: #ebe3ce;
+	text-decoration: none;
+	color: text-decoration: none;
+	color: #fece2f;
 	}
-ul#jump  {
-	content: " | ";
-	}
-ul#jump li:first-child:before {
-	content: " ";
-	}
+
 
 #aboutlogo {
   text-align: center;
