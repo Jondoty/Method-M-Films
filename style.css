@@ -66,11 +66,12 @@ th, td {
   color: black;
 }
 .cs1950 a:hover{
-  color: #fece2f;
+  color: #fece2f !important;
 }
 
 a:link, a:visited {
   color: black;
+  background-color: transparent !important;
 }
 
 a:hover {
