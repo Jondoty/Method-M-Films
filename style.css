@@ -153,6 +153,10 @@ th {
 
 @media (max-width: 800px) {
 
+  .logo-small {
+    display: none;
+  }
+
   #filmcopyright {
     padding-top: 20px;
   }
@@ -672,9 +676,9 @@ h1.arrow {
 }
 
 @-moz-document url-prefix() {
-    .logo-small {
-        height: 1.4em;
-    }
+.logo-small {
+    height: 1.4em;
+  }
 }
 
 @supports (-ms-ime-align:auto) {
