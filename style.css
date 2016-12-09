@@ -164,9 +164,41 @@ th, td {
   color: #000000;
   font-size: 1em;
 }
+.card {
+  border-top: 10px solid #fece2f;
+  padding: 0;
+  margin-bottom: 20px;
+  align-content: center;
+}
 
+.card p {
+  padding: 10px;
+}
+
+.card img {
+  width: 100%;
+  padding-top: 10px;
+}
 
 @media (min-width: 800px){
+
+.card-container {
+  display: flex;
+  flex-flow: column;
+  max-width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-container {
+  flex-flow: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+.card {
+  width: 45%;
+}
 
   /* Caption text */
   .text {
