@@ -144,7 +144,6 @@ th {
     display: none;
   }
 
-
   .table{
     display: flex;
     flex-flow: wrap;
@@ -161,6 +160,7 @@ th, td {
 }
 }
 
+<<<<<<< HEAD
 .card {
     border-top: 10px solid #fece2f;
     padding: 0;
@@ -175,11 +175,17 @@ th, td {
 .card img {
   width: 100%;
   padding-top: 10px; 
+=======
+.text {
+  color: #000000;
+  font-size: 1em;
+>>>>>>> origin/master
 }
 
 
 @media (min-width: 800px){
 
+<<<<<<< HEAD
   .card-container {
       display: flex;
       flex-flow: column;
@@ -196,6 +202,18 @@ th, td {
 
   .card {
     width: 45%;
+=======
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    text-shadow: 2px 2px 5px #2a2a2a;
+    font-size: 1.5em;
+    font-family: inherit;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    text-align: left;
+>>>>>>> origin/master
   }
 
   .table{
@@ -391,7 +409,7 @@ text-align: inherit;
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 4rem;
   margin-bottom: 1rem;
   font-family:'Raleway', sans-serif;
   text-align: center;
@@ -532,17 +550,7 @@ ul#jump li:first-child:before {
   border-radius: 3px 0 0 3px;
 }
 
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  text-shadow: 2px 2px 5px #2a2a2a;
-  font-size: 1.5em;
-  font-family: inherit;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  text-align: left;
-}
+
 
 /* The dots/bullets/indicators */
 .dot {
@@ -633,7 +641,7 @@ ul#jump li:first-child:before {
 }
 
 h1.arrow {
-    margin-top: -35px;
+    margin-top: -50px;
 }
 
 @-moz-document url-prefix() {
@@ -647,4 +655,16 @@ h1.arrow {
       height: 44px;
   }
 }
+
+.directors {
+    width: 100%;
+    white-space:nowrap;
+    overflow-x: hidden;
+    overflow-x: scroll;
+}
+
+.directors .slide {
+    display: inline-block;
+    width: 400px;
+    align-items: center;
 }
