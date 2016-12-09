@@ -372,7 +372,7 @@ text-align: inherit;
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 4rem;
   margin-bottom: 1rem;
   font-family:'Raleway', sans-serif;
   text-align: center;
@@ -627,4 +627,17 @@ h1.arrow {
       height: 44px;
   }
 }
+}
+
+#directors {
+    width: 100%;
+    white-space:nowrap;
+    overflow-x: hidden;
+    overflow-x: scroll;
+}
+
+#directors .slide {
+    display: inline-block;
+    width: 400px;
+    align-items: center;
 }
