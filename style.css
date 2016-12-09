@@ -47,12 +47,12 @@ nav ul li{
 .TableLinks a:link, .TableLinks a:visited, .TableLinks a:active {
   text-decoration: none;
   background-color: transparent;
-  color: black;
+  color: black !important;
 }
 
 .TableLinks a:hover {
   text-decoration: none;
-  color: #fece2f;
+  color: #fece2f !important;
 }
 
 #ConcernedLinks a:link, #ConcernedLinks a:visited, #ConcernedLinks a:active {
