@@ -621,7 +621,7 @@ ul#jump li:first-child:before {
 }
 
 h1.arrow {
-    margin-top: -35px;
+    margin-top: -50px;
 }
 
 @-moz-document url-prefix() {
