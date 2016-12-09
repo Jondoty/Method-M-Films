@@ -248,7 +248,8 @@ a:link, a:visited{
   color:black;
 }
 #filmmakers a:hover {
-   color: #fece2f;
+   color: #fece2f !important;
+   background-color: transparent;
   }
 }
 
