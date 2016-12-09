@@ -160,49 +160,14 @@ th, td {
 }
 }
 
-<<<<<<< HEAD
-.card {
-    border-top: 10px solid #fece2f;
-    padding: 0;
-    margin-bottom: 20px;
-    align-content: center;
-}
-
-.card p {
-    padding: 10px;
-}
-
-.card img {
-  width: 100%;
-  padding-top: 10px; 
-=======
 .text {
   color: #000000;
   font-size: 1em;
->>>>>>> origin/master
 }
 
 
 @media (min-width: 800px){
 
-<<<<<<< HEAD
-  .card-container {
-      display: flex;
-      flex-flow: column;
-      max-width: 75%;
-      margin-left: auto;
-      margin-right: auto;
-  }
-
-  .card-container {
-    flex-flow: row;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-  }
-
-  .card {
-    width: 45%;
-=======
   /* Caption text */
   .text {
     color: #f2f2f2;
@@ -213,7 +178,6 @@ th, td {
     position: absolute;
     bottom: 8px;
     text-align: left;
->>>>>>> origin/master
   }
 
   .table{
@@ -260,6 +224,23 @@ th, td {
   }
 }
 
+#name {
+  text-align: center;
+  max-width: 800px;
+}
+#words {
+  padding: 5px;
+  max-width: 800px;
+  text-align: left;
+}
+
+#words a:link, a:visited{
+  color: black;
+}
+
+a:link, a:visited{
+  color: black;
+}
 #filmmakers a:hover {
   color:#fece2f;
 }
@@ -314,7 +295,7 @@ text-align: inherit;
 }
 
 #about {
-  text-align: center;
+  text-align: left;
 }
 #about a:visited {
   color:black;
@@ -628,7 +609,6 @@ ul#jump li:first-child:before {
     max-height: auto;
   }
 }
-
 
 @media (min-width: 550px) {
 
