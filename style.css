@@ -688,6 +688,7 @@ h1.arrow {
     white-space:nowrap;
     overflow-x: hidden;
     overflow-x: scroll;
+    text-align: center;
 }
 
 .directors .slide {
